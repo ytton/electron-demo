@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="display: flex">
+      来自主进程的消息：
+      <div id="receiveMsg"></div>
+    </div>
+    <div style="display: flex">
+      来自主进程invoke的回传的消息：
+      <div id="returnMsg"></div>
+    </div>
+    <div style="display: flex">
+      来自主进程send的回传的消息：
+      <div id="sendReturnMsg"></div>
+    </div>
+    <div>
+      发送消息给主进程：
+      <input type="text" id="sendMsg" />
+      <button id="sendBtn">发送</button>
+    </div>
+    <script src="./render.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "electron-demo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "demo/10dialog/index.js",
+  "scripts": {
+    "dev": "nodemon --exec electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.3.1",
+    "nodemon": "^3.1.4"
+  }
+}
